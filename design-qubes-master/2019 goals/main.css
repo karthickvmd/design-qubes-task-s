@@ -1,0 +1,81 @@
+body
+{
+    background-color: rgb(211, 248, 248);
+}
+body, input{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body .container
+{
+    width:100%;
+    max-width: 500px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 3px 3px 0 rgba(0 , 0 , 0 ,.1);
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif, cursive;
+    margin : 0 0 10px 0;
+    
+}
+.items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.items .item.done{
+    text-decoration: line-through;
+}
+.done-button
+{
+    display: inline-block;
+    padding: 2px 10px;
+    background-color: rgb(211, 248, 248);
+    color:black;
+    opacity: 0.5;
+}
+.items li, .input-add, .input
+{
+    border: 0;
+    margin: 0;
+    border-bottom: 1px solid #000;
+    padding: 20px;
+}
+
+input:hover{
+    outline: none;
+}
+.item-add
+{
+    border-bottom: 0
+}
+input{
+    width:92%;
+}
+.submitbtn
+{
+    margin-top: 10px;
+    padding: 3px 6px;
+    background-color: green;
+    color:white;
+    border-radius: 2px;
+    width:100%;
+}
+.items li:hover .done-button{
+    opacity: 1;
+}
+#q
+{
+   height:50px;
+   width:500px;
+   background-color: red;
+   color:white;
+}
